@@ -54,11 +54,11 @@ main.centerbox {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
-.text-centered {
-    text-align: center;
+.index-title {
+    margin-top: 0px;
 }
 
 .grid {
