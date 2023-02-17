@@ -5,6 +5,7 @@ body {
 }
 
 .container {
+    /* border: 1px solid blue; */
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -37,7 +38,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding: 1rem; */
 }
 
 .uppercase {
@@ -51,6 +51,7 @@ p.loose {
 
 /* index.html */
 main.centerbox {
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,11 +63,12 @@ main.centerbox {
 }
 
 .grid {
+    /* border: 1px solid black; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 320px;
     margin-bottom: 20px;
 }
 
