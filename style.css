@@ -44,6 +44,10 @@ footer {
     text-transform: uppercase;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 p.loose {
     line-height: 1.5;
 }
