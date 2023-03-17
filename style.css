@@ -1,7 +1,7 @@
 /* common */
 html,
 body {
-    font-family: Courier, monospace;
+    font-family: 'Courier Prime', Courier, monospace;
 }
 
 .container {
@@ -50,6 +50,11 @@ footer {
 
 p.loose {
     line-height: 1.5;
+}
+
+li.loose {
+    line-height: 1.5;
+    padding-bottom: 1rem;
 }
 
 
